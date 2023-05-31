@@ -1,4 +1,4 @@
-package day37.wkshp.model;
+package app.workshop.model;
 
 public class PhotoPost {
     
@@ -39,10 +39,9 @@ public class PhotoPost {
         this.picture = picture;
     }
 
-    public PhotoPost(String photoId, String comments, String contentType, byte[] picture) {
+    public PhotoPost(String photoId, String comments, byte[] picture) {
         this.photoId = photoId;
         this.comments = comments;
-        this.contentType = contentType;
         this.picture = picture;
     }
 

@@ -1,10 +1,10 @@
-package day37.wkshp;
+package app.workshop;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WkshpApplicationTests {
+class WorkshopApplicationTests {
 
 	@Test
 	void contextLoads() {
